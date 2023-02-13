@@ -58,10 +58,11 @@ public class Main {
         System.out.println("Задача 8");
         int savings = 29000;
         int total = 0;
-        for (int i =0;i<12;i++){
+        for (int i =1;i<=12;i++){
             total=total+savings;
+            System.out.println("месяц № "+ i +" сумма накоплений равна "+total+" рублей");
         }
-        System.out.println(total);
+
     }
     public static void task9() {
         System.out.println("Задача 9");
@@ -78,7 +79,7 @@ public class Main {
         System.out.println("Задача 10");
          int two = 2;
         for(int i = 1;i<=10; i++){
-            System.out.println(two*i);
+            System.out.println(two+"*"+i+"="+two*i);
         }
     }
 }
